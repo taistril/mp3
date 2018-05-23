@@ -5,15 +5,16 @@ function onDeviceReady() {
 };
 
 function playMP3() {
-    var mp3URL = getMediaURL("sounds/button-1.mp3");
-    var media = new Media(mp3URL, null, mediaError);
+    // var mp3URL = getMediaURL("sounds/button-1.mp3");
+    
+    var media = new Media("/android_asset/www/sounds/button-1.mp3", null, mediaError);
     media.play();
 }
 
-function getMediaURL(s) {
-    if(device.platform.toLowerCase() === "android") return "/android_asset/www/" + s;
-    return s;
-}
+// function getMediaURL(s) {
+//     if(device.platform.toLowerCase() === "android") return "/android_asset/www/" + s;
+//     return s;
+// }
 
 function mediaError(e) {
     alert('Media Error');
