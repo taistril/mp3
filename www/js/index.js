@@ -9,9 +9,12 @@ function playMP3() {
 
     
     var media = new Media("/android_asset/www/sounds/button-1.mp3", null, mediaError);
+    
+    alert('PlayMP3' + media);
+                
     media.play();
     
-            alert('PlayMP3' + media);
+
 }
 
 // function getMediaURL(s) {
