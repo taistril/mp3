@@ -10,7 +10,7 @@ function playMP3() {
         alert('PlayMP3');
         
         
-    var media = new Media("/android_asset/www/sounds/button-1.mp3", null, mediaError);
+    var media = new Media("/android_asset/www/sounds/button-1.mp3", mediaOK, mediaError);
     
 
                 
@@ -23,6 +23,13 @@ function playMP3() {
 //     if(device.platform.toLowerCase() === "android") return "/android_asset/www/" + s;
 //     return s;
 // }
+
+
+function mediaOK(e) {
+    alert('Media OK');
+    alert(JSON.stringify(e));
+}
+
 
 function mediaError(e) {
     alert('Media Error');
