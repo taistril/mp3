@@ -6,6 +6,7 @@ function onDeviceReady() {
 
 function playMP3() {
     // var mp3URL = getMediaURL("sounds/button-1.mp3");
+        alert('PlayMP3');
     
     var media = new Media("/android_asset/www/sounds/button-1.mp3", null, mediaError);
     media.play();
