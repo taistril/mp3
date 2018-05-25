@@ -10,7 +10,7 @@ function playMP3() {
     
     var media = new Media("/android_asset/www/sounds/button-1.mp3", null, mediaError);
     
-    alert('PlayMP3' + media);
+    alert('PlayMP3');
                 
     media.play();
     
