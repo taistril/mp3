@@ -16,7 +16,7 @@ function playMP3() {
 
     // var mp3URL = getMediaURL("sounds/button-1.mp3");
 
-        alert('PlayMP3');
+   //     alert('PlayMP3');
         
          var roy = "aaaaaaaaaaaaaaaa";
         
@@ -24,7 +24,7 @@ function playMP3() {
 
 
 
-        alert('PlayMP3-B');
+   //     alert('PlayMP3-B');
         
         
          var royb = "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB";
