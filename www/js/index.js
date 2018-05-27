@@ -19,11 +19,15 @@ function playMP3() {
         alert('PlayMP3');
         
         
-console.log("playAudio():Audio Success");
+         document.write(roy);
 
 
 
         alert('PlayMP3-B');
+        
+        
+
+         
         
   /*      
     //  var media = new Media("http://cbpsyorks.co.uk/mp3/A1.mp3", 
