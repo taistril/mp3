@@ -18,6 +18,7 @@ function playMP3() {
 
         alert('PlayMP3');
         
+         var roy = "aaaaaaaaaaaaaaaa";
         
          document.write(roy);
 
@@ -26,6 +27,9 @@ function playMP3() {
         alert('PlayMP3-B');
         
         
+         var royb = "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB";
+        
+         document.write(royb);
 
          
         
