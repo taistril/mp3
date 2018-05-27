@@ -13,7 +13,7 @@ function playMP3() {
         alert('PlayMP3');
         
         
-// console.log("playAudio():Audio Success");
+console.log("playAudio():Audio Success");
 
 
 
