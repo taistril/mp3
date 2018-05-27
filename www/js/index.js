@@ -1,4 +1,4 @@
-src="https://jsconsole.com/js/remote.js?aaaaa";
+// src="https://jsconsole.com/js/remote.js?aaaaa";
 
 document.addEventListener('deviceready', onDeviceReady, false);
 
@@ -26,7 +26,9 @@ console.log("playAudio():Audio Success");
         alert('PlayMP3-B');
         
   /*      
-    //  var media = new Media("http://cbpsyorks.co.uk/mp3/A1.mp3",       
+    //  var media = new Media("http://cbpsyorks.co.uk/mp3/A1.mp3", 
+    
+    
     var media = new Media("http://cbpsyorks.co.uk/mp3/A1.mp3", 
     
             // success callback
