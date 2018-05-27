@@ -11,7 +11,7 @@ function playMP3() {
      //   alert('PlayMP3');
         
         
-    var media = new Media("http://audio.ibeat.org/content/p1rj1s/p1rj1s_-_rockGuitar.mp3", 
+    var media = new Media("http://cbpsyorks.co.uk/mp3/A1.mp3", 
     
             // success callback
             function() {
