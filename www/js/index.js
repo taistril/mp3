@@ -11,6 +11,10 @@ function playMP3() {
      //   alert('PlayMP3');
         
         
+console.log("playAudio():Audio Success");
+
+
+    //  var media = new Media("http://cbpsyorks.co.uk/mp3/A1.mp3",       
     var media = new Media("http://cbpsyorks.co.uk/mp3/A1.mp3", 
     
             // success callback
