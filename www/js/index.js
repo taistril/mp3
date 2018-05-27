@@ -1,5 +1,6 @@
 document.addEventListener('deviceready', onDeviceReady, false);
 
+
 function onDeviceReady() {
 	document.querySelector("#playMp3").addEventListener("touchend", playMP3, false);
 };
@@ -10,7 +11,23 @@ function playMP3() {
      //   alert('PlayMP3');
         
         
-    var media = new Media("/android_asset/www/sounds/button-1.mp3", mediaOK, mediaError);
+    var media = new Media("/android_asset/www/sounds/button-1.mp3", 
+    
+            // success callback
+            function() {
+                console.log("playAudio():Audio Success");
+            },
+            // error callback
+            function(err) {
+                console.log("playAudio():Audio Error: "+err);
+    }
+    
+    
+    
+    
+    
+    
+//    mediaOK, mediaError);
     
 
                 
