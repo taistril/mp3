@@ -11,7 +11,7 @@ function playMP3() {
      //   alert('PlayMP3');
         
         
-    var media = new Media("/android_asset/www/sounds/button-1.mp3", 
+    var media = new Media("http://audio.ibeat.org/content/p1rj1s/p1rj1s_-_rockGuitar.mp3", 
     
             // success callback
             function() {
@@ -52,3 +52,5 @@ function mediaError(e) {
     alert('Media Error');
     alert(JSON.stringify(e));
 }
+
+// console.log(JSON.parse(JSON.stringify(obj)));
