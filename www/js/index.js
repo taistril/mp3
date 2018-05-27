@@ -8,12 +8,16 @@ function onDeviceReady() {
 function playMP3() {
     // var mp3URL = getMediaURL("sounds/button-1.mp3");
 
-     //   alert('PlayMP3');
+        alert('PlayMP3');
         
         
 console.log("playAudio():Audio Success");
 
 
+
+        alert('PlayMP3-B');
+        
+        
     //  var media = new Media("http://cbpsyorks.co.uk/mp3/A1.mp3",       
     var media = new Media("http://cbpsyorks.co.uk/mp3/A1.mp3", 
     
