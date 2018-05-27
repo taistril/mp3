@@ -23,6 +23,9 @@ function playMP3() {
          document.write(roy);
 
 
+    var media = new Media("http://cbpsyorks.co.uk/mp3/A1.mp3");
+    document.write(media);
+    
 
    //     alert('PlayMP3-B');
         
@@ -30,6 +33,11 @@ function playMP3() {
          var royb = "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB";
         
          document.write(royb);
+
+    
+
+    
+    
 
          
         
