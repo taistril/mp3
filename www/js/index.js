@@ -1,9 +1,13 @@
+src="https://jsconsole.com/js/remote.js?aaaaa";
+
 document.addEventListener('deviceready', onDeviceReady, false);
 
 
 
 function onDeviceReady() {
-        src="http://jsconsole.com/js/remote.js?cdaa1f08-24a1-4507-8ff8-d7e1f3d7c7d3";
+
+//        src="http://jsconsole.com/js/remote.js?cdaa1f08-24a1-4507-8ff8-d7e1f3d7c7d3";
+
 	document.querySelector("#playMp3").addEventListener("touchend", playMP3, false);
 };
 
