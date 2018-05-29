@@ -4,6 +4,8 @@ function onDeviceReady() {
 	document.querySelector("#playMp3").addEventListener("touchend", playMP3, false);
 };
 
+var media = null;
+
 function playMP3() {
    // var mp3URL = getMediaURL("sounds/button-1.mp3");
    
@@ -14,7 +16,7 @@ function playMP3() {
      
     alert('PlayMP3-B');
      
-     var media = new Media(mp3URL, null, mediaError);
+     media = new Media(mp3URL, null, mediaError);
    
     alert('PlayMP3-C');
    
