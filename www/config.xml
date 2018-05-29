@@ -46,7 +46,7 @@ taistril
     
     
         <plugin name="cordova-plugin-device" />  
-      	<plugin name="cordova-plugin-media" spec="4.0.0" />   
+      	<plugin name="cordova-plugin-media" spec="3.0.1" />   
         	
 
     
