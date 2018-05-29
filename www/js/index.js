@@ -10,7 +10,7 @@ function playMP3() {
    
     alert('PlayMP3');
    
-    // var media = new Media(/android_asset/www/sounds/button-1.mp3, null, mediaError);
+    // var media = new Media(/android_asset/sounds/button-1.mp3, null, mediaError);
    
     alert('PlayMP3-B');
    
