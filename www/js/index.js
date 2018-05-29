@@ -22,7 +22,7 @@ function playMP3() {
         
     //     document.write(roy);
 
-    //    var media = new Media(/android_asset/www/sounds/button-1.mp3");
+       var media = new Media(/android_asset/www/sounds/button-1.mp3");
 
     // var media = new Media("http://cbpsyorks.co.uk/mp3/A1.mp3");
    
