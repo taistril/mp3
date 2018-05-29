@@ -12,7 +12,7 @@ function playMP3() {
    
     alert('PlayMP3-A');
    
-     var mp3URL = "/android_asset/www/button-1.mp3";
+     var mp3URL = "/android_asset/www/sounds/button-1.mp3";
      
     alert('PlayMP3-B');
      
@@ -20,7 +20,7 @@ function playMP3() {
    
     alert('PlayMP3-C');
    
-    // media.play();
+    media.play();
 }
 
 function getMediaURL(s) {
