@@ -8,12 +8,15 @@ function playMP3() {
    // var mp3URL = getMediaURL("sounds/button-1.mp3");
    
    
-    alert('PlayMP3');
+    alert('PlayMP3-A');
    
      var mp3URL = "/android_asset/www/button-1.mp3";
+     
+    alert('PlayMP3-B');
+     
      var media = new Media(mp3URL, null, mediaError);
    
-    alert('PlayMP3-B');
+    alert('PlayMP3-C');
    
     // media.play();
 }
