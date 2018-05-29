@@ -19,33 +19,3 @@ function mediaError(e) {
     alert('Media Error');
     alert(JSON.stringify(e));
 }
-    
-    
-//    mediaOK, mediaError);
-    
-
-                
-    media.play();
-    
-  */  
-
-}
-
-// function getMediaURL(s) {
-//     if(device.platform.toLowerCase() === "android") return "/android_asset/www/" + s;
-//     return s;
-// }
-
-
-function mediaOK(e) {
-    alert('Media OK');
-    alert(JSON.stringify(e));
-}
-
-
-function mediaError(e) {
-    alert('Media Error');
-    alert(JSON.stringify(e));
-}
-
-// console.log(JSON.parse(JSON.stringify(obj)));
