@@ -45,6 +45,7 @@ taistril
        <!-- <gap:plugin name="cordova-plugin-splashscreen" source="npm"/>           -->
     
     
+        <plugin name="cordova-plugin-device" />  
       	<plugin name="cordova-plugin-media" />   
         	
 
