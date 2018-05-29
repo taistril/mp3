@@ -16,24 +16,26 @@ function playMP3() {
 
     // var mp3URL = getMediaURL("sounds/button-1.mp3");
 
-   //     alert('PlayMP3');
+        alert('PlayMP3');
         
-         var roy = "aaaaaaaaaaaaaaaa";
+    //     var roy = "aaaaaaaaaaaaaaaa";
         
-         document.write(roy);
+    //     document.write(roy);
 
-     //   var media = new Media(/android_asset/www/sounds/button-1.mp3");
+        var media = new Media(/android_asset/www/sounds/button-1.mp3");
 
-    var media = new Media("http://cbpsyorks.co.uk/mp3/A1.mp3");
+    // var media = new Media("http://cbpsyorks.co.uk/mp3/A1.mp3");
+   
+   
    // document.write(media);
     
 
-   //     alert('PlayMP3-B');
+        alert('PlayMP3-B');
         
         
-         var royb = "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB";
+     //    var royb = "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB";
         
-         document.write(royb);
+     //    document.write(royb);
 
     
 
